@@ -1,0 +1,26 @@
+{
+  "name": "بەحرا دەرونناسی - Behra Derûnê",
+  "short_name": "بەحرا دەرون",
+  "description": "مەزنترین پلاتفۆڕما دەرونناسی ب بادینی - 1000 بابەت - 100 پەرتوکێن بەلاش - 400 زاراوە",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#10B981",
+  "orientation": "portrait-primary",
+  "lang": "ku",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/4086/4086679.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/4086/4086679.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

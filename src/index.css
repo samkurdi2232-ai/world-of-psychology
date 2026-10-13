@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Noto+Sans+Arabic:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Calming Therapeutic Health-Tech Palette: Sage, Warm Beige, Muted Navy Blue, Pure White */
+  --color-sage-50: #F4F7F5;
+  --color-sage-100: #E6EDE8;
+  --color-sage-200: #CFDDD3;
+  --color-sage-300: #B1C7B7;
+  --color-sage-400: #8DAE97;
+  --color-sage-500: #6D9479;
+  --color-sage-600: #55785F;
+  --color-sage-700: #435E4B;
+  --color-sage-800: #364B3D;
+  --color-sage-900: #2C3C31;
+
+  --color-beige-50: #FAF8F5;
+  --color-beige-100: #F5EFE6;
+  --color-beige-200: #EADFCF;
+  --color-beige-300: #DCCBB3;
+  --color-beige-400: #C9B293;
+  --color-beige-500: #B39975;
+
+  --color-navy-50: #F0F4F8;
+  --color-navy-100: #D9E2EC;
+  --color-navy-200: #BCCCDC;
+  --color-navy-300: #9FB3C8;
+  --color-navy-400: #829AB1;
+  --color-navy-500: #627D98;
+  --color-navy-600: #486581;
+  --color-navy-700: #334E68;
+  --color-navy-800: #243B53;
+  --color-navy-900: #102A43;
+  --color-navy-950: #0B1D2F;
+
+  --color-ocean-blue: #1C3D5A;
+  --color-ocean-dark: #102A43;
+  --color-ocean-light: #2B577A;
+  --color-calm-white: #FAF9F6;
+  --color-soft-gold: #D4A373;
+}
+
+body {
+  @apply bg-[#FBF9F5] text-[#243B53] antialiased selection:bg-[#6D9479]/20 selection:text-[#102A43];
+  font-family: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(109, 148, 121, 0.04) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(212, 163, 115, 0.05) 0px, transparent 50%);
+}
+
+.font-arabic {
+  font-family: 'Noto Sans Arabic', system-ui, -apple-system, sans-serif;
+}
+
+/* Glassmorphism utility classes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.glass-panel-subtle {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(226, 232, 240, 0.6);
+}
+
+.glass-panel-dark {
+  background: rgba(16, 42, 67, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(72, 101, 129, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(109, 148, 121, 0.45);
+}

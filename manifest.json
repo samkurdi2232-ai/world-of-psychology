@@ -1,0 +1,26 @@
+{
+  "name": "بەحرا دەرونناسی - Behira Derunsasi",
+  "short_name": "بەحرا دەرون",
+  "description": "مەزنترین مالپەرێ دەرونناسی ب بادینی - 1000 بابەت - 100 پەرتوک - 400 زاراوە",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "orientation": "portrait",
+  "lang": "ku",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/4086/4086679.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/4086/4086679.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
